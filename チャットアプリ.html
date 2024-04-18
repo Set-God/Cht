@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="style.css" />
+  <title>チャット</title>
+</head>
+<body>
+  <div id="room">
+    
+    <div class="box-left">
+      <p class="message-box white">初めましてm(_ _)m</p>
+    </div>
+    
+    <div class="box-right">
+      <p class="message-box green">こんにちは！初めまして！</p>
+    </div>
+    
+  </div>
+  
+  <div class="input-group chat-input">
+    <input type="text" id="inputMessage" class="form-control" placeholder="メッセージを入力して下さい。何も無い状態で、送らないで下さい。">
+    <div class="input-group-append">
+      <button id="sendBtn" class="btn btn-primary">送信</button>
+    </div>
+  </div>
+  
+  <script src="./script.js"></script>
+</body>
+</html>
